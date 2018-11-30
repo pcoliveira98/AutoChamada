@@ -1,0 +1,9 @@
+{
+  "name": "chamadapp",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular",
+  "pro_id": "d384da92",
+  "app_id": ""
+}

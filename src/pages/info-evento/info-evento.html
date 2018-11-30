@@ -1,0 +1,30 @@
+<!--
+  Generated template for the InfoEventoPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>Info-Evento</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+  <ion-list>
+    <ion-item>
+      <p>Evento: {{infoEvento.evento}}</p>
+      <p>Data do Evento: {{infoEvento.data | date: ['dd/MM/yyyy']}}</p>
+      <p>Período: {{infoEvento.periodo}}</p>
+    </ion-item>
+    <ion-item>
+      <p>Data de escaneamento: {{scannerDate | date: ['dd/MM/yyyy hh:mm']}}</p>
+    </ion-item>
+    <ion-item>
+      <p>Usuário: {{userData.displayName}}</p>
+    </ion-item>
+  </ion-list>
+</ion-content>
